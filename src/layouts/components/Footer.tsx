@@ -170,7 +170,7 @@ export default function Footer() {
 
   const handleCopyEmail = async () => {
     // Replace this placeholder with your real business email before launch.
-    const businessEmail = "hello@yourdomain.com";
+    const businessEmail = "ssgroup062026@gmail.com";
 
     try {
       await navigator.clipboard.writeText(businessEmail);
@@ -420,7 +420,7 @@ export default function Footer() {
                   Email us
                 </span>
                 <span className="mt-1 block break-all text-[11px] font-bold text-slate-700 group-hover:text-indigo-700">
-                  {copiedEmail ? "Copied!" : "hello@yourdomain.com"}
+                  {copiedEmail ? "Copied!" : "ssgroup062026@gmail.com"}
                 </span>
                 <span className="mt-1 block text-[10px] text-slate-400">
                   {copiedEmail ? "Email copied to clipboard" : "Click to copy"}
